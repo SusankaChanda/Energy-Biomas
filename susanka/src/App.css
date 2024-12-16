@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gochi+Hand&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:wght@228&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar-container {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
+.website-content-container {
+  font-family: "PT Serif", serif;
+  box-sizing: border-box;
+  padding: 20px 50px 30px 50px;
+  /* height: 60vh; */
+}
+
+.website-content-container h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+}
+* {
+  -ms-overflow-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.website-content-row {
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.website-updates-container {
+  box-sizing: border-box;
+  padding: 20px 20px 0px 20px;
+  height: 80vh;
+  border: 1px solid rgb(215, 226, 226);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.website-updates-container h1 {
+  font-family: "PT Serif", serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  /* margin-bottom: 10px; */
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #000;
+  padding: 0px;
+  margin: 1px;
+}
+
+.updates-inner-container {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  /* padding-right: 10px; */
+}
+
+.updates-inner-container div {
+  height: 70px;
+  background-color: rgb(227, 243, 206);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.updates-inner-container div a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+.updates-inner-container div a:hover {
+  color: orangered;
+  font-weight: 600;
+}
+
+.updates-container-heading h7 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: -10px;
+  color: blue;
+}
+
+.updates-container-heading h7:hover {
+  color: orangered;
+  font-weight: 600;
+  cursor: pointer;
+}

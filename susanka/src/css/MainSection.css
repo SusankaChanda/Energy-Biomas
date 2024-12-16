@@ -1,0 +1,55 @@
+.main-section-container {
+  box-sizing: border-box;
+  padding: 20px 50px 10px 50px;
+}
+
+.main-section-container-inside h1 {
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-section-container-inside-header {
+  margin-bottom: 30px;
+}
+
+.underline {
+  width: 40px;
+  height: 3px;
+  background-color: #0cbd29;
+  margin-bottom: 30px;
+}
+
+.main-section-card {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  height: 180px;
+  margin-bottom: 20px;
+  width: 90%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.main-section-card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.main-section-card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.main-section-card h2:hover {
+  color: #189af1;
+}
+
+.main-section-card p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #979797;
+}
